@@ -8,7 +8,104 @@
 </head>
 
 <body>
-<h1>Hello HTML!</h1>
+    <header class="header">
+        <nav class="header__top-nav">
+            <div class="header__top-nav-logo" style="background-color: black;">
+                <img width="210" src="img/nav-logo.svg" alt="Zen cottages logo">
+            </div>
+            <div class="header__top-nav-menu">
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Cottages</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="header__top-nav-phone">
+                <span class="header__top-nav-phone-call-us">CALL US</span> +1 (234) 567 89 00
+            </div>
+        </nav>
+        <div class="header__banner">
+            <h1>ZEN Cottages</h1>
+            <p class="header__banner-subheading">
+                We can build your dream home.
+            </p>
+            <button>Request a call</button>
+        </div>
+    </header>
+    <main>
+        <div class="car-show">
+            <article class="car-show__card">
+                <img width="300" src="img/mb-ml.webp" alt="Mercedes ML" <h3>SUVS</h3>
+                <p>No obstacles on your way
+                    can spoil the trip.</p>
+                <a href="#contact-more">Learn More</a>
+            </article>
+            <article class="car-show__card">
+                <img width="300" src="img/nissan-jtr.webp" alt="Nissan JTR" <h3>Sports Cars</h3>
+                <p>Feel what true speed
+                    and freedom are.</p>
+                <a href="#contact-more">Learn More</a>
+            </article>
+            <article class="car-show__card">
+                <img width="300" src="img/mb-s-class.webp" alt="MB-S-Class" <h3>Luxury</h3>
+                <p>Comfortable cars for
+                    demanding clients.</p>
+                <a href="#contact-more">Learn More</a>
+            </article>
+
+        </div>
+        <div class="product-tabs">
+            <div class="tab-header">
+                <a href="">Featured</a>
+                <a href="">Sale</a>
+                <a href="">New</a>
+
+            </div>
+            <div class="class tab-content">
+                <article class="car-show__card">
+                    <img width="300" src="img/mb-ml.webp" alt="Mercedes ML" <h3>SUVS</h3>
+                    <p>$100000.00</p>
+                    <button>Buy</button>
+                </article>
+                <article class="car-show__card">
+                    <img width="300" src="img/mb-ml.webp" alt="Mercedes ML" <h3>SUVS</h3>
+                    <p>$100000.00</p>
+                    <button>Buy</button>
+                </article>
+                <article class="car-show__card">
+                    <img width="300" src="img/mb-ml.webp" alt="Mercedes ML" <h3>SUVS</h3>
+                    <p>$100000.00</p>
+                    <button>Buy</button>
+                </article>
+            </div>
+        </div> <!--End tab-content-->
+<div class="class promos">
+    <div class="sale">
+        <h3>JBL Speakers</h3>
+        <div class="promos__sale-price">
+            <span>$300</span><span>$250</span>
+        </div>
+        <p>Special price on a variety of JBL loudspeakers.</p>
+        <a href="">Learn more</a>
+    </div>
+</div>
+
+    </main>
+    <footer>
+        <div class="contacts info">
+            <p class="subheader">contacts</p>
+            <h2 class="contacts">Contact us anytime</h2>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Enter your full name*" required>
+            <input type="text" placeholder="Enter your phone number*" required>
+            <input type="email" placeholder="Enter your email*" required>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button>Request a quote</button>
+
+        </form>
+       
+    </footer>
 </body>
 
 </html>
